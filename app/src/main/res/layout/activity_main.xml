@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="962dp"
+                android:layout_height="541dp"
+                app:srcCompat="@drawable/backmainf" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="962dp"
+                android:layout_height="541dp"
+                app:srcCompat="@drawable/backf" />
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imageView14"-->
+<!--                android:layout_marginTop="341dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@drawable/backf" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imageView13"-->
+<!--                android:layout_marginTop="541dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:srcCompat="@drawable/images" />-->
+
+            <ImageView
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/namee" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="209dp"
+                android:layout_height="56dp"
+                android:layout_below="@id/imageView4"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/style_but_two"
+                android:text="Смотреть"
+                android:textSize="16dp"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="150dp"
+                android:layout_height="230dp"
+                android:layout_below="@id/textView2"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/firstmov" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="190dp"
+                android:layout_height="280dp"
+                android:layout_marginTop="300dp"
+                android:layout_marginLeft="170dp"
+                app:srcCompat="@drawable/secondmov" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="150dp"
+                android:layout_height="230dp"
+                android:layout_below="@id/textView2"
+                android:layout_marginLeft="350dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/thirdmov" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="150dp"
+                android:layout_height="230dp"
+                android:layout_below="@id/textView2"
+                android:layout_marginLeft="520dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/fourmov" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="150dp"
+                android:layout_height="230dp"
+                android:layout_marginTop="355dp"
+                android:layout_marginLeft="690dp"
+                app:srcCompat="@drawable/fivedmov" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="102dp"
+                android:layout_height="261dp"
+                android:layout_marginLeft="860dp"
+                android:layout_marginTop="325dp"
+                app:srcCompat="@drawable/last" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="В тренде"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/button2"
+                android:layout_marginLeft="30dp"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Новое"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/imageView5"
+                android:layout_marginLeft="30dp"/>
+
+
+            <ImageView
+                android:id="@+id/imageView51"
+                android:layout_width="150dp"
+                android:layout_height="230dp"
+                android:layout_below="@id/textView3"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/firstmov" />
+
+
+            <ImageView
+                android:id="@+id/imageView71"
+                android:layout_width="150dp"
+                android:layout_height="230dp"
+                android:layout_below="@id/textView3"
+                android:layout_marginLeft="350dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/thirdmov" />
+
+            <ImageView
+                android:id="@+id/imageView81"
+                android:layout_width="150dp"
+                android:layout_height="230dp"
+                android:layout_below="@id/textView3"
+                android:layout_marginLeft="520dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/fourmov" />
+
+            <ImageView
+                android:id="@+id/imageView91"
+                android:layout_width="150dp"
+                android:layout_height="230dp"
+                android:layout_marginTop="655dp"
+                android:layout_marginLeft="690dp"
+                app:srcCompat="@drawable/fivedmov" />
+
+            <ImageView
+                android:id="@+id/imageView101"
+                android:layout_width="102dp"
+                android:layout_height="261dp"
+                android:layout_marginLeft="860dp"
+                android:layout_marginTop="625dp"
+                app:srcCompat="@drawable/last" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
